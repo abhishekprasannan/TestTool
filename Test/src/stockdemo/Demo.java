@@ -9,7 +9,7 @@ import java.net.URLConnection;
 
 public class Demo {
 	public static void main(String[] args) throws IOException{
-		final String SYM = "KO";
+		final String SYM ="KO";
 		URL url = new URL("https://www.google.com/finance?ei=AIS5WZCAGom6ugTH67RA&q=ko");
 		URLConnection urlConn = url.openConnection();
 		InputStreamReader inStream = new InputStreamReader(urlConn.getInputStream());
