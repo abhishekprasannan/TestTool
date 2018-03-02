@@ -4,6 +4,8 @@ import java.util.Map;
 
 public class Gcd {
 	private static int first(int a, int b){
+		//Added to check GIT annotations
+		System.out.println("Added to check GIT annotations");
 		if(b == 0){
 			return a;
 		} else{
